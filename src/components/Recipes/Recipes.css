@@ -1,0 +1,81 @@
+.table {
+  min-width: 330px;
+  width: 40%;
+  border: 1px solid grey;
+  background-color: rgba(128, 128, 128, 0.15);
+  margin: 30px 10px 20px 10px;
+  border-radius: 10px;
+  height: 25rem;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transition: 0.3s;
+  background-color: azure;
+}
+.table:hover {
+  height: 32rem;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+}
+.table:hover .ingredient-list {
+  visibility: initial;
+  opacity: 1;
+}
+.table:hover .recipe {
+  visibility: initial;
+  opacity: 1;
+}
+
+.row {
+  margin: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.recipe {
+  margin: 0;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+.recipe-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.calories {
+  font-weight: bolder;
+}
+.recipe-image {
+  border-radius: 1000px;
+  height: 180px;
+  transition: 0.2s;
+}
+.recipe-image:hover {
+  height: 220px;
+}
+
+.ingredient-list {
+  font-size: 15px;
+  margin: 0;
+  color: black;
+  font-weight: 450;
+  visibility: hidden;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
