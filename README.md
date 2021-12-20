@@ -1,2 +1,2 @@
-# receipe_master
+# Tanu's App-Receipe App
  
